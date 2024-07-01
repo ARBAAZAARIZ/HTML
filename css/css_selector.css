@@ -1,0 +1,24 @@
+/* tag selector  */
+p{
+    color: rgb(90, 115, 7);
+}
+
+
+/* id selector  */
+#firsth2{
+    color: greenyellow;
+   
+}
+
+#secondh2{
+    color: blueviolet;
+}
+
+.in_red{
+    color: red;
+}
+
+p, #firsth2, .in_red{
+    background-color: pink;
+}
+

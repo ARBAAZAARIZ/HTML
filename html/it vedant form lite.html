@@ -8,7 +8,7 @@
 <form action="">
 
     <h1 align="center" ><b><em>I.T. VADENT LITE</em></b></h1>
-    <h4 align="center" >Decode Your Dreams</h4>
+    <p align="center" >Decode Your Dreams</p>
 
     <hr>
     <hr>
@@ -17,6 +17,7 @@
     <!-- name input -->
     <b><label for="name">NAME</label>
         <input type="text" name="name" id="name">
+        
     </b>
 
     <br><br>
@@ -25,14 +26,18 @@
 
     <b><label for="age">AGE</label>
         <input type="number" name="age" id="age"></b>
-
-        
-
+        <b>
         <!-- male or female input -->
-         <b>
-            <label for="M/F">MALE/FEMALE</label>
-            <input type="text" name="M/F" id="M/F">
-         </b>
+
+        <pre>          </pre>
+         
+            <label for="gender">MALE/FEMALE</label>
+        </b>
+        <br>
+            <input type="radio" name="gender" id="gender1" >  <label for="gender1">male</label>
+            <input type="radio" name="gender" id="gender2">   <label for="gender2">female</label>
+            
+         
 
          <br><br>
             <b><label for="Email">Email</label></b> 
@@ -90,7 +95,15 @@
             <p><b>Enter your course name </b></p>
          <b>
             <label for="COURSE">COURSE</label>
-            <input type="text" name="COURSE" id="COURSE">
+            <select name="COURSE" id="COURSE">
+
+                <option value="fsdj">java full stack web developement</option>
+                <option value="fsdpy">python full stack web developement</option>
+                <option value="da">data analytics</option>
+                <option value="dsa">data structure algorithms</option>
+                <option value="ai">artifical intiligence</option>
+
+            </select>
          </b>
 
          <p><b>Want to talk with our Counselor ??</b></p>

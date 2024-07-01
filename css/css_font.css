@@ -1,0 +1,34 @@
+ /* on line font change  */
+
+#p1{
+  font-family: "Playwrite US Modern", cursive;
+  font-optical-sizing: auto;
+
+  color: green;
+}
+
+#p2{
+  font-family: "Playwrite US Modern", cursive;
+  font-optical-sizing: auto;
+
+  color: orangered;
+}
+
+@font-face {
+  font-family: Arabica;
+  src: url(font/Arabica.ttf);
+}
+h1{
+  color: deeppink;
+}
+
+h1, #p3{
+  font-family: Arabica;
+}
+
+
+
+
+
+
+
