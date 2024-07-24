@@ -1,0 +1,25 @@
+/* for attribute  */
+img[alt]
+{
+    border: 3px solid black;
+    margin-right: 20px;
+}
+/* for perticular attribute  */
+img[alt='it vedant image']
+{
+    box-shadow: 5px 5px 5px grey;
+}
+/* anywere  */
+h2[class~="red"]{
+    color: red;
+}
+
+/* starting  */
+h2[class^='red']{
+    background-color: pink;
+}
+
+/* end  */
+h2[class$='red']{
+    text-decoration: underline;
+}

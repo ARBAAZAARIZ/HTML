@@ -1,0 +1,24 @@
+
+h2::first-letter
+{
+    font-family: cursive;
+    color: red;
+    text-shadow: 5px 5px 5px grey;
+}
+
+h2::first-line
+{
+    text-decoration: underline;
+    background-color: pink;
+}
+
+
+h2::before
+{
+    content: url(it\ vedant\ logo.jpeg);
+}
+
+h2::after
+{
+    content: url(it\ vedant\ logo.jpeg);
+}

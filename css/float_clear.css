@@ -1,0 +1,31 @@
+.box{
+    width: 300px;
+    border: 2px solid black ;
+    float: left;
+    margin-right: 10px ;
+    text-align: center;
+    background-color: rgb(158, 210, 210);
+    background: radial-gradient(yellow,green ,black);
+    box-shadow: 5px 5px 5px red;
+}
+.box1{
+    width: 300px;
+    border: 2px solid black ;
+    float: left;
+    margin-right: 10px ;
+    text-align: center;
+    background-color: rgb(158, 210, 210);
+    background: radial-gradient(yellow,green ,black);
+    box-shadow: 5px 5px 5px red;
+}
+
+.box2{
+    width: 300px;
+    border: 2px solid black ;
+    float: left;
+    margin-right: 10px ;
+    text-align: center;
+    background-color: rgb(158, 210, 210);
+    background: radial-gradient(yellow,green ,black);
+    box-shadow: 5px 5px 5px red;
+}

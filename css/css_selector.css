@@ -18,6 +18,7 @@ p{
     color: red;
 }
 
+/* group selector  */
 p, #firsth2, .in_red{
     background-color: pink;
 }

@@ -1,0 +1,29 @@
+#box1,#box2{
+    height: 200px;
+    width: 200px;
+    border: 3px solid black ;
+}
+#box1{
+    background-color: rgb(152, 47, 47);
+
+}
+#box2{
+    
+    background-color: rgb(66, 72, 153);
+
+}
+
+#box1{
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px; */
+
+    /* insted of this margin top left or right we can simple use (margin) and define the valued*/
+    /* margin: 40px 50px 60px 70px;   top right bottom left */
+    margin: 100px 30px 150px;
+
+}
+div>h1{
+    
+    padding: 10px 10px 10px 60px;
+}
